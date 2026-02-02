@@ -107,21 +107,21 @@
 // }
 
 // // Main class to demonstrate abstraction
-// public class Geeks{
+public class Geeks{
 
-//     public static void main(String[] args){
+    public static void main(String[] args){
 
-//         TV a = new TVRemote();
-//         a.turnOn();   
-//         a.turnOff();  
-//     }
-// }
-public class Main {
-  static void myMethod() {
-    System.out.println("I just got executed!");
-  }
-
-  public static void main(String[] args) {
-    myMethod();
-  }
+        TV a = new TVRemote();
+        a.turnOn();   
+        a.turnOff();  
+    }
 }
+// public class Main {
+//   static void myMethod() {
+//     System.out.println("I just got executed!");
+//   }
+
+//   public static void main(String[] args) {
+//     myMethod();
+//   }
+// }
